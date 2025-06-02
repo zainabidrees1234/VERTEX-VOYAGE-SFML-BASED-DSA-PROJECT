@@ -68,6 +68,8 @@ void loadGraph(Graph& g, const string& filename) {
     file.close();
 }
 
+// Computes path according to useCustomStopOrder and originalStops
+// Returns {bestPath, bestDistance} pair
 pair<vector<int>, int> computeBestPath(Graph& graph, int src, int dest, const vector<int>& stops, bool useCustomStopOrder) {
     vector<int> bestPath;
     int bestDistance = INF;
@@ -139,12 +141,12 @@ int main() {
 
     const int windowWidth = 980;
     const int windowHeight = 980;
-    sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "VertexVoyage");
+    sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "Dijkstra Path Finder");
 
     bool showError = false;
 
     sf::Texture mapTexture;
-    if (!mapTexture.loadFromFile("C:\\Users\\user\\Desktop\\Project3\\Project3\\Pakistan-map.jpg")) {
+    if (!mapTexture.loadFromFile("C:\\Users\\DELL 7490\\Desktop\\DSA_PROJECT_MAP\\DSA_PROJECT_MAP\\Pakistan-map.jpg")) {
         std::cerr << "Failed to load map image!" << std::endl;
         return -1;
     }
