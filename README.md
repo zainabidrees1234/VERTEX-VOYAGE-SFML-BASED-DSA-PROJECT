@@ -62,10 +62,10 @@ An interactive C++ application that visualizes the **shortest path** between Pak
 ---
 
 ## 🧑‍💻 Author  
-**Umm-e-Habiba Imran**  
+**Zainab Idrees**  
 📍 Bahria University, Islamabad  
-📧 habibaimrannn@gmail.com  
-🔗 [GitHub](https://github.com/habiba-imran) | [LinkedIn](https://www.linkedin.com/in/habiba-imran-118624258/)
+📧 zainabidrees57@gmail.com  
+🔗 [GitHub](https://github.com/zainabidrees1234) | [LinkedIn](https://www.linkedin.com/in/zainab-idrees-06b30230a/)
 
 ---
 
